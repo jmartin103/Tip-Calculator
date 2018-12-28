@@ -1,0 +1,37 @@
+body {
+  background-color: tan;
+}
+
+p {
+  font-family: arial;
+  font-size: 20px;
+}
+
+div {
+  text-align: center;
+}
+
+#btnCalc {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+#txtBill {
+  width: 100px;
+}
+
+#txtTip {
+  width: 30px;
+}
+
+#txtShare {
+  width: 30px;
+}
+
+#header {
+  font-family: arial;
+}

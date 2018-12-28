@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Simple Tip Calculator</title>
+		<link href="style.css" rel="stylesheet">
+		<script type="text/javascript" src="calctip.js">
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Tip Calculator!</h1>
+		</div>
+
+		<div id="bill">
+			<p>How much was your bill?</p>
+			$<input type="text" id="txtBill">
+		</div>
+
+		<div id="tip">
+			<p>How much do you want to tip?</p>
+			<input type="text" id="txtTip">%
+		</div>
+
+		<div id="share">
+			<p>How many people are sharing your bill?</p>
+			<input type="text" id="txtShare">
+		</div>
+
+		<div id="calculate">
+			<input type="button" id="btnCalc" value="CALCULATE TIP" onclick="calculatetip()">
+		</div>
+	</body>
+</html>
